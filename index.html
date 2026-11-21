@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{STUDIO_NAME}}: original video channels</title>
+  <meta name="description" content="{{STUDIO_NAME}} makes five original video channels: Scale of What, Survive The Days, Torah Unrolled, The Bronze Lantern and Clearly Ranked.">
+  <meta name="theme-color" content="#0d1017">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./">
+        <img class="brand-mark" src="favicon.svg" alt="" width="28" height="28">
+        <span>{{STUDIO_NAME}}</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="./" aria-current="page">Home</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Independent video studio</p>
+        <h1 id="hero-title">{{STUDIO_NAME}}</h1>
+        <p class="lead">We make five original video channels: 3D science and scale explainers, interactive survival stories, Torah stories told from the text and its classic commentators, history documentaries, and ranking shorts. Every video is reviewed by us before it goes out, our factual channels list their sources in each video's description, and every video discloses the AI tools used to make it.</p>
+      </section>
+
+      <section aria-labelledby="channels-title">
+        <h2 id="channels-title">Our channels</h2>
+        <ul class="channels">
+          <li class="card" style="--card-accent:#2EE6D6">
+            <img src="assets/icons/scale-of-what.png" alt="Scale of What channel icon" width="72" height="72">
+            <div>
+              <p class="kind">Science &amp; scale</p>
+              <h3>Scale of What</h3>
+              <p>Big what-ifs. Real numbers. Under a minute.</p>
+              <a href="https://www.youtube.com/@{{HANDLE_scale}}">Watch on YouTube<span class="visually-hidden"> (Scale of What)</span></a>
+            </div>
+          </li>
+          <li class="card" style="--card-accent:#FF6B1A">
+            <img src="assets/icons/survive-the-days.png" alt="Survive The Days channel icon" width="72" height="72">
+            <div>
+              <p class="kind">Survival stories</p>
+              <h3>Survive The Days</h3>
+              <p>You're the one trapped. How many days can you last?</p>
+              <a href="https://www.youtube.com/@{{HANDLE_survive}}">Watch on YouTube<span class="visually-hidden"> (Survive The Days)</span></a>
+            </div>
+          </li>
+          <li class="card" style="--card-accent:#C9A44C">
+            <img src="assets/icons/torah-unrolled.png" alt="Torah Unrolled channel icon" width="72" height="72">
+            <div>
+              <p class="kind">Torah · non-commercial</p>
+              <h3>Torah Unrolled</h3>
+              <p>The Torah's stories, told from the text and the classic commentators.</p>
+              <a href="https://www.youtube.com/@{{HANDLE_torah}}">Watch on YouTube<span class="visually-hidden"> (Torah Unrolled)</span></a>
+            </div>
+          </li>
+          <li class="card" style="--card-accent:#B07A3B">
+            <img src="assets/icons/the-bronze-lantern.png" alt="The Bronze Lantern channel icon" width="72" height="72">
+            <div>
+              <p class="kind">History documentaries</p>
+              <h3>The Bronze Lantern</h3>
+              <p>History's great stories, told in full.</p>
+              <a href="https://www.youtube.com/@{{HANDLE_lantern}}">Watch on YouTube<span class="visually-hidden"> (The Bronze Lantern)</span></a>
+            </div>
+          </li>
+          <li class="card" style="--card-accent:#FFC531">
+            <img src="assets/icons/clearly-ranked.png" alt="Clearly Ranked channel icon" width="72" height="72">
+            <div>
+              <p class="kind">Ranking shorts</p>
+              <h3>Clearly Ranked</h3>
+              <p>Everything ranked. Every pick scored and explained.</p>
+              <a href="https://www.youtube.com/@{{HANDLE_ranked}}">Watch on YouTube<span class="visually-hidden"> (Clearly Ranked)</span></a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="app-title">
+        <div class="panel">
+          <h2 id="app-title">About the Content Engine app</h2>
+          <p>Content Engine is a private production tool we built for our own channels. It is not a public service: there are no sign-ups, and nobody outside our team can use it. It runs on the owner's computer and connects only to accounts we own and control.</p>
+          <p>With our authorization, it uses each platform's official API to:</p>
+          <ul>
+            <li><strong>YouTube</strong> (YouTube API Services): upload our videos, set their titles, descriptions, thumbnails and playlists, and read the analytics for our own channels.</li>
+            <li><strong>TikTok</strong> (planned): post our videos to our own TikTok accounts, or send them to our drafts.</li>
+            <li><strong>Facebook and Instagram</strong> (planned): publish our videos to our own Facebook Pages and Instagram professional accounts, and read their insights.</li>
+          </ul>
+          <p>We use the statistics only to see how our own videos perform and to decide what to make next. Content Engine does not collect information about viewers, never sells data, and does not use platform data for advertising or to train AI models.</p>
+          <div class="links-row">
+            <a class="button" href="privacy.html">Privacy policy</a>
+            <a class="button" href="terms.html">Terms of service</a>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p class="section-intro">Questions about our videos, a correction, or a privacy request: email <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 {{STUDIO_NAME}}</p>
+      <ul>
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li><a href="terms.html">Terms of service</a></li>
+        <li><a href="mailto:{{CONTACT_EMAIL}}">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
