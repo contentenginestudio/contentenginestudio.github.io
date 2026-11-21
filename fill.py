@@ -4,8 +4,8 @@
 Example:
   python3 fill.py --studio "Content Engine" --email "hello@example.com" \
       --base-url "https://example.github.io/content-site" \
-      --handles scale=ScaleOfWhat survive=SurviveTheDays torah=TorahUnrolled \
-                lantern=TheBronzeLantern ranked=ClearlyRanked
+      --handles scale=ScaleOfWhat torah=TorahUnrolled lantern=TheBronzeLantern \
+                ranked=ClearlyRanked
 
 Edits the files in place (undo with `git checkout -- .`). Use --out DIR to write a filled
 copy somewhere else instead. Uses only the Python standard library.
@@ -24,9 +24,9 @@ TARGETS = ["index.html", "privacy.html", "terms.html", "404.html", "robots.txt",
 COPY_SKIP = {".git", "_preview", "__pycache__", ".DS_Store"}
 
 # Defaults come from the channel kits (content-engine/assets/channels/*/kit.json).
+# Survive The Days is linked by its permanent channel ID in index.html, so it has no handle token.
 DEFAULT_HANDLES = {
     "scale": "ScaleOfWhat",
-    "survive": "SurviveTheDays",
     "torah": "TorahUnrolled",
     "lantern": "TheBronzeLantern",
     "ranked": "ClearlyRanked",

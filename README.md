@@ -25,12 +25,12 @@ fill.py           fills the placeholders
 | `{{STUDIO_NAME}}` | studio name (defaults to "Content Engine") |
 | `{{CONTACT_EMAIL}}` | public contact email (shown on every page, used for privacy and deletion requests) |
 | `{{BASE_URL}}` | site root, no trailing slash, e.g. `https://USER.github.io/content-site` |
-| `{{HANDLE_scale}}` `{{HANDLE_survive}}` `{{HANDLE_torah}}` `{{HANDLE_lantern}}` `{{HANDLE_ranked}}` | YouTube handles without `@` (defaults: ScaleOfWhat, SurviveTheDays, TorahUnrolled, TheBronzeLantern, ClearlyRanked) |
+| `{{HANDLE_scale}}` `{{HANDLE_torah}}` `{{HANDLE_lantern}}` `{{HANDLE_ranked}}` | YouTube handles without `@` (defaults: ScaleOfWhat, TorahUnrolled, TheBronzeLantern, ClearlyRanked). Survive The Days is linked by its permanent channel ID (`/channel/UCvH3kJifDxoX4WHQWsAF6LQ`) because its handle may change. |
 
 ```bash
 python3 fill.py --studio "Content Engine" --email "you@yourdomain.com" \
   --base-url "https://USER.github.io/content-site" \
-  --handles scale=ScaleOfWhat survive=SurviveTheDays torah=TorahUnrolled lantern=TheBronzeLantern ranked=ClearlyRanked
+  --handles scale=ScaleOfWhat torah=TorahUnrolled lantern=TheBronzeLantern ranked=ClearlyRanked
 ```
 
 - The command edits the files in place and prints what it replaced. It exits with an error if any `{{…}}` token is left.
