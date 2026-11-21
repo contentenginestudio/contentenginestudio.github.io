@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>{{BASE_URL}}/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>{{BASE_URL}}/privacy.html</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>{{BASE_URL}}/terms.html</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://contentenginestudio.github.io/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://contentenginestudio.github.io/privacy.html</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://contentenginestudio.github.io/terms.html</loc><lastmod>2026-11-20</lastmod></url>
 </urlset>

@@ -18,6 +18,30 @@ fill.py           fills the placeholders
 .nojekyll         tells GitHub Pages to serve files as-is
 ```
 
+## Current values (filled 2026-11-20)
+
+This copy is already filled. It will be published as the GitHub user site `contentenginestudio.github.io`, served from the repo root.
+
+- Studio: Content Engine Studio
+- Contact: awesomeron34@gmail.com
+- Base URL: `https://contentenginestudio.github.io`
+- YouTube: @ScaleOfWhat, @TorahUnrolled, @TheBronzeLantern, @ClearlyRanked. Survive The Days is linked by channel ID: `https://www.youtube.com/channel/UCvH3kJifDxoX4WHQWsAF6LQ`.
+
+| Where | Field | Paste |
+|---|---|---|
+| Google Branding | Application home page | `https://contentenginestudio.github.io/` |
+| Google Branding | Privacy policy link | `https://contentenginestudio.github.io/privacy.html` |
+| Google Branding | Terms of service link | `https://contentenginestudio.github.io/terms.html` |
+| Google Branding | Authorized domain | `contentenginestudio.github.io` |
+| TikTok app details | Website / Terms / Privacy | same three URLs as above |
+| Meta App settings → Basic | App domains | `contentenginestudio.github.io` |
+| Meta App settings → Basic | Privacy / Terms / Site URL | same three URLs as above |
+| Meta App settings → Basic | Data deletion instructions URL | `https://contentenginestudio.github.io/privacy.html#data-deletion` |
+
+Publish (after review): `gh repo create contentenginestudio.github.io --public --source=. --remote=origin --push`. This must run under the `contentenginestudio` GitHub account. Then turn on Pages from `main`, folder `/`.
+
+To change a value: `git checkout bded58b -- index.html privacy.html terms.html 404.html robots.txt sitemap.xml`, then run `fill.py` again.
+
 ## 1. Fill the placeholders (one command)
 
 | Token | Meaning |

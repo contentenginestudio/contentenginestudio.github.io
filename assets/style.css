@@ -180,3 +180,5 @@ td code { word-break: break-all; }
   th, td { padding: 0.5rem; }
   .table-wrap table { font-size: 0.9rem; }
 }
+
+.doc p, .doc li { overflow-wrap: anywhere; }
